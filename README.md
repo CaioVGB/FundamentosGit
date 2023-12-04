@@ -72,3 +72,20 @@ O sinal verde `+` representa o que foi adicionado/modificado no versionamento, e
 * Desse modo, tudo o que tinha de alteração na branch novoBotao (por exemplo) se juntará à branch `main`
 
 * Para finalizar digite `git push origin main` e suba os arquivos para a branch principal do repositorio remoto
+
+## Clone
+
+* Para fazer o download de um repositporio remoto, seu ou de outro usuário, há duas opções:
+* 1ª opção: clicar no botão `Code` que se encontra no próprio Github, conforme a imagem abaixo
+ 
+  <img src="img/imgClone.PNG">
+
+* 2ª opção: utilizando o mesmo link presente na imagem acima, abra o terminal e digite `git clone <link copiado do repositório remoto>`
+**Observação**: é importante que, ao clonar um repositório de sua própria conta no Github, verifique  qual branch está como `default`, pois o **projeto clonado será aquele que se encontra na branch `default`**
+
+## Pull
+
+* E se o desenvolvedor, ao digitar novos códigos em seu computador de casa e enviá-los para o reprositório remoto, perceber ao chegar no trabalho que o projeto na máquina do escritório está desatualizado?
+
+* Para puxar **todas as alterações realizadas do repositório remoto (Github) para o seu repositório local**, digite `git pull`
+
